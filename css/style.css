@@ -52,6 +52,7 @@ body{
 }
 .postagem{
     padding: 1rem;
+    margin-top: 1rem;
     background-color: #fff;
     border-radius: 0.3rem;
 }
@@ -81,4 +82,45 @@ body{
 }
 .postagem a:hover{
     text-decoration: underline;
+}
+.texto-postagem-lateral p{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.texto-postagem-lateral a{
+    text-decoration: none;
+}
+.texto-postagem-lateral a:visited,.postagem a:link{
+    color: #f7b600;
+}
+.texto-postagem-lateral a:hover{
+    text-decoration: underline;
+}
+.conteudo-lateral{
+    padding: 1rem;
+    margin: 1rem;
+    background-color: #fff;
+    width: 15rem;
+    border-radius: 0.3rem;
+}
+.conteudo-lateral-titulo{
+    padding: 0.4rem;
+    background-color: #a7a7a7;
+    border-radius: 0.3rem;
+}
+.navegacao-lateral a{
+    text-decoration: none;
+    color: #f7b600;
+    display: flex;
+    padding: 0.1rem;
+}
+.conteudo-lateral a{
+    text-decoration: none;
+    color: #f7b600;
+    display: flex;
+}
+hr{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
 }
