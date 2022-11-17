@@ -30,6 +30,9 @@ body{
     color: #fff;
     padding: 8px 12px;
 }
+.activePage{
+    color: black;
+}
 /*NAV EFEITO HOVER LINKS DAS ANCORAS*/
 #area-menu a:hover{
     background-color: #fff;
